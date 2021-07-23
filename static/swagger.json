@@ -1,5 +1,5 @@
 {
-  "openapi": "3.0.0",
+  "openapi": "3.0.1",
   "info": {
     "description": "sean",
     "version": "1.0.0",
@@ -90,7 +90,7 @@
             "required": true,
             "description": "Book Request id",
             "schema": {
-              "$ref": "#/components/schemas/id"
+              "$ref": "#/components/schemas/id" # can not return documnet like 'deleted'. 
             }
           }
         ],
